@@ -6,6 +6,7 @@ const document = () => {
     <Card>
         <CardBody>
 <CardTitle>Document</CardTitle>
+<h1>Welcome to Document</h1>
         </CardBody>
     </Card>
   
