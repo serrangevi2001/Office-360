@@ -6,7 +6,7 @@ const document = () => {
     <Card>
         <CardBody>
 <CardTitle>Document</CardTitle>
-<h1>Welcome to Document In VisionWare </h1>
+<h1>Welcome to Document In Visionware Technologies</h1>
         </CardBody>
     </Card>
   
