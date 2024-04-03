@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 app.use(express.static("build"));
 app.get("*", (req, res) => res.sendFile(path.resolve("build/index.html")));
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 7070;
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`);
     console.log('Press Ctrl+C to quit.');
