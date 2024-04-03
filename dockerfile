@@ -17,8 +17,8 @@ COPY . .
 RUN npm run build
 
 # Expose port 3000 to the outside world
-EXPOSE 3001
+# EXPOSE 3001
 
 # Command to run the application
 # CMD ["npm", "start"]
-CMD node server.js
+CMD ["node", "server.js"]
