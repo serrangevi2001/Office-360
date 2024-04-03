@@ -1,0 +1,11 @@
+{
+    "Office360":[
+        {
+            "name": "office360",
+            "cwd": "C:/VW-Projects/Office-360",
+            "script": "C:/VW-Projects/Office-360/server.js",
+            "watch": true,
+            "ignore_watch": ["node_modules"]
+        }
+    ]
+}
