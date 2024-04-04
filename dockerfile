@@ -21,5 +21,5 @@ RUN npm run build
 
 # Command to run the application
 # CMD ["npm", "start"]
-CMD ["node", "server.js"]
+# CMD ["node", "server.js"]
  
