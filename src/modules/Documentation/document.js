@@ -6,9 +6,10 @@ const document = () => {
     <Card>
         <CardBody>
 <CardTitle>Document</CardTitle>
-<h1>Welcome to Document In Visionware Technologies.</h1>
+<h1>Welcome to Visionware Technologies.</h1>
 <h2>Rasipuram Branch.</h2>
 <h3>Total No of Employees : 7 </h3>
+<h4>Thank you.</h4>
         </CardBody>
     </Card>
   
