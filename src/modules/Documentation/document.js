@@ -11,7 +11,7 @@ const document = () => {
 <h3>Total No of Employees : 7 only </h3>
 <h4>Thank you.</h4>
         </CardBody>
-    </Card>
+    </Card> 
   
   )
 }
