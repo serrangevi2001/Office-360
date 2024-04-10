@@ -76,6 +76,7 @@ const Sidebar = () => {
         <Nav vertical className="sidebarNav">
           {navigation.map((navi, index) => (
             <NavItem key={index} className="sidenav-bg">
+              {console.log(navi.href)}
               <Link
                 to={navi.href}
                 className={
