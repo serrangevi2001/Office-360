@@ -6,6 +6,7 @@ const excel = () => {
     <Card>
     <CardBody>
 <CardTitle>Excel</CardTitle>
+<h1>It's Excel</h1>
     </CardBody>
 </Card>
   )
