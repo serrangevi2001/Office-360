@@ -7,6 +7,7 @@ const excel = () => {
     <CardBody>
 <CardTitle>Excel</CardTitle>
 <h1>Hi it's Excel</h1>
+<h2>how can i help you?</h2>
     </CardBody>
 </Card>
   )
