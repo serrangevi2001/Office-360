@@ -1,0 +1,48 @@
+pipeline {
+    agent any
+
+    stages {
+        // stage("GIT") {
+        //     steps {
+        //         git branch: 'dev-serrangevi', credentialsId: 'Gevi', url: 'https://github.com/VW-T/timesheet-app.git'
+        //     }
+        // }
+
+        stage('Node modules install') {
+            steps {
+                script {
+                 bat 'npm i'
+                }
+            }
+        }
+        stage('build') {
+            steps {
+                script { 
+                 bat 'npm run build'
+                }
+            }
+        } 
+        stage('Directory'){
+            steps{
+                script{
+                     bat 'dir'
+                }
+            }
+        } 
+       stage('local worspace _to_ Dockercontainer transfer'){
+           steps{
+               script{
+                   bat 'docker cp "build" ts:/app'
+               }
+           }
+       }
+       stage('container restart'){
+           steps{
+               script{
+                   bat 'docker restart ts'
+               }
+           }
+       }
+    
+    }
+}
