@@ -29,7 +29,7 @@ pipeline {
                 }
             }
         } 
- {/*  stage('local worspace _to_ Dockercontainer transfer'){
+  stage('local worspace _to_ Dockercontainer transfer'){
            steps{
                script{
                    bat 'docker cp "build" ts:/app'
@@ -42,8 +42,6 @@ pipeline {
                    bat 'docker restart ts'
                }
            }
-       }
-*/ }
-    
+       }   
     }
 }
